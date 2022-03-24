@@ -1,0 +1,133 @@
+﻿body{
+    margin: 0;
+    padding: 0;
+    background-color: #def1fd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.garota{
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+.container{
+    width: 390px;
+    height: 600px;
+    background-color: white;
+    position: relative;
+    margin-top: 100px;
+    border-radius: 13px;
+
+}
+
+.Fundo-Cima{
+    width: 100%;
+    position: absolute;
+}
+
+h1, p{
+    text-align:center;
+}
+
+.Titulo{
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #080462;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.Paragrafo{
+    width: 280px;
+    margin-left: 51px;
+    font-size: 15px;
+    color: gray;
+    font-family: 'Cabin', sans-serif;
+}
+
+.Musica{
+    width: 300px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: #f5f5f4;
+    border-radius: 10px;
+}
+
+.Container{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+}
+ 
+.Icone, .Descri{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.Descri{
+    width: 100px;
+}
+
+.Descri::first-line{
+    color: #080462;
+    font-family: 'Varela Round', sans-serif;
+    font-weight:bolder;
+}
+
+.Descri:nth-child(2){
+    color: gray;
+    font-family: 'Cabin', sans-serif;
+}
+
+.Change{
+    font-family: 'Cabin', sans-serif;
+    font-size: 13px;
+    font-weight:bolder;
+    margin-left: 90px;
+    margin-top: 25px;
+    color: #0901a7;
+    cursor: pointer;
+}
+
+.Botao{
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px;
+    margin-bottom: 35px;
+    background-color: #3c2ce2;
+    box-shadow: 0px 8px 30px black;
+    cursor: pointer;
+}
+
+.Botao:hover{
+    background-color: #3b2ce2af;
+}
+
+.Change:hover{
+    color: #3b2ce2af;
+}
+
+.Botao p{
+    color: white;
+    padding-top: 13px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 13px;
+}
+
+.container:nth-last-child(1){
+    font-family: 'Varela Round', sans-serif;
+    color: gray;
+    font-size: 12px;
+}
+
+.Cancel:hover{
+    color: black;
+}
